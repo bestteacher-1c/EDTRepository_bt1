@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12d032d6-ae38-4046-b6b7-a2671334e133">
+  <name>МенеджерПоПродажам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер по продажам</value>
+  </synonym>
+  <comment>Функциональная (Интерфейсная) роль</comment>
+</mdclass:Role>

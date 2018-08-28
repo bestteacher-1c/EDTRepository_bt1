@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2467f55d-8dd8-40bc-922e-dead3f400cbf">
+  <name>ПрофильПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профиль пользователя</value>
+  </synonym>
+  <group>CommandGroup.Параметры</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

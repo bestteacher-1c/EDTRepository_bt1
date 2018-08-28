@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c5b29f8-20fe-45e2-ac14-34fe0343c78f">
+  <name>ФормаПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма печати</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

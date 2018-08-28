@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53166438-1a75-451e-9d3c-32d4a3c4d448">
+  <producedTypes>
+    <selectionType typeId="d8d1c7aa-e697-44f8-b60f-3254a553be81" valueTypeId="873b2cb0-9dc3-4565-821f-6e0b6be08534"/>
+    <listType typeId="e875023d-5768-4205-b2ab-87c23f7ec5ea" valueTypeId="4ab5f8c6-2d47-4fd1-8d5f-64e9ce0c198c"/>
+    <managerType typeId="80e53ea1-21d7-4798-8767-ab4c36c16cc6" valueTypeId="a6a50302-b3f7-4e08-b6a5-8acbc8431781"/>
+    <recordSetType typeId="a3686739-3e06-47a7-941c-4192b8961592" valueTypeId="80da1088-c5a5-46d1-866e-13f9637958df"/>
+    <recordKeyType typeId="2d1a7577-66a0-4494-be76-fea087929ba5" valueTypeId="5209af88-3a1d-40ca-8b4b-ecc25e6ac870"/>
+    <recordType typeId="88416e5c-4878-4492-a089-cab926348bd2" valueTypeId="55c721cd-6b59-4798-b673-5c7ebe53fbba"/>
+    <recordManagerType typeId="7379ba88-0777-470d-b948-9561b8eb5864" valueTypeId="1420ff93-9dc1-4ac9-8c00-eebf8494821c"/>
+  </producedTypes>
+  <name>ПараметрыПрофиля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры профиля</value>
+  </synonym>
+  <comment></comment>
+  <defaultRecordForm>InformationRegister.ПараметрыПрофиля.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПараметрыПрофиля.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0034c823-22db-4f7e-9a7c-74c2b5e6c1e6">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b00ce313-5a0e-4075-9a19-978a7c09ad52">
+    <name>Профиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ПрофилиПользователей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f3123c2b-ca54-4c50-ab02-e8113b48fd35">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="bbda930e-0e3b-40a3-896d-2750d80372da">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5d0b2904-dd79-4dc9-a717-448bcd2cd099">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ce574384-2af4-452d-a4a3-8acf8ddcce9d">
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ПрофилиПользователей</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

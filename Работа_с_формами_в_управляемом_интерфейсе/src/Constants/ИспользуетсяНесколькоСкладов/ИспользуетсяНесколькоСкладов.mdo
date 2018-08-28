@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc766e52-6f99-4657-ad5a-ccabaa0a09d4">
+  <producedTypes>
+    <managerType typeId="347b50df-e119-4cf0-9961-3dc4645b3c80" valueTypeId="913d9abf-42ff-4bad-8c3e-706f61331859"/>
+    <valueManagerType typeId="e5ecaa1d-37dc-45f6-9d0c-6a6901318c0d" valueTypeId="a1895fe9-fd9f-42bc-ac2c-60208aeac1f8"/>
+  </producedTypes>
+  <name>ИспользуетсяНесколькоСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется несколько складов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ВестиУчетВРазрезеСкладов</defaultForm>
+  <editFormat>
+    <key>ru</key>
+    <value></value>
+  </editFormat>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

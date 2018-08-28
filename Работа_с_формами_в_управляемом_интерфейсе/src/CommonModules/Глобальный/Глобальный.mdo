@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5179f48e-8233-4e44-aa48-53fb2c8b6733">
+  <name>Глобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнение к менеджеру глобального контекста</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

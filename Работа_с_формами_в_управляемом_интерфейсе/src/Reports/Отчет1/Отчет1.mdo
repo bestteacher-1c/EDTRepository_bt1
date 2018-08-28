@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bd1a535-62ab-4843-bb76-bd423c62129d">
+  <producedTypes>
+    <objectType typeId="7a653336-c436-4203-becf-4f331f167194" valueTypeId="bd3b36ae-c42e-4e8f-83af-8d4f04c96045"/>
+    <managerType typeId="5c37b989-668d-4844-b9d7-21b127caed6e" valueTypeId="6e1cd835-57e8-46b1-88af-1533db51fe29"/>
+  </producedTypes>
+  <name>Отчет1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Отчет1.Template.Заглушка</mainDataCompositionSchema>
+  <templates uuid="02e2ada0-6a56-4a55-b871-5bc30d2e9b13">
+    <name>Заглушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заглушка</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

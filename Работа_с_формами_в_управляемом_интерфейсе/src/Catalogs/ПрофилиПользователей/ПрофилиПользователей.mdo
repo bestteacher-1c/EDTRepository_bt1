@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b69bb43-fb7d-40af-b500-b04cf44645f6">
+  <producedTypes>
+    <objectType typeId="7cd9f717-f4c6-4ebe-af0b-46a5d9d1c093" valueTypeId="df50072e-af48-4143-aa3a-154e5e80c8b0"/>
+    <refType typeId="16fd2e56-0b42-4b91-816d-bd239655ba2d" valueTypeId="978ed689-2d3f-4f21-b01a-b622f5082ae3">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="c9a95e85-f17b-4db2-84b2-1827bcce4d77" valueTypeId="99ec62da-6841-4eb3-9ad9-93a6e80b2d3b"/>
+    <listType typeId="77aad57b-604e-44d6-898d-e55d6fa09aa2" valueTypeId="8988dc67-2ace-4c17-9481-30c0adc7b472"/>
+    <managerType typeId="55e32d58-15be-43d4-9c40-942bbe98be82" valueTypeId="047551a4-1656-403a-a3fb-090a9308e549"/>
+  </producedTypes>
+  <name>ПрофилиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрофилиПользователей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПрофилиПользователей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cf9b0596-b423-4770-83ec-8e9c5589e5fe">
+    <name>Я_Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Я менеджер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0af2a298-8bc3-41e8-86a7-62a0b4211d66">
+    <name>ФормаНавигации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма навигации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3ace1b90-9317-414b-9c15-afda0be77a78">
+    <name>Навигация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Навигация</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.ПрофилиПользователей</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

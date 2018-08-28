@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaa7b5d3-6223-4e4a-a8ad-87b5d5b87922">
+  <name>РазрешитьИспользованиеТолстогоКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить использование толстого клиента</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

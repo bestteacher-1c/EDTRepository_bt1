@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b6a689a-d602-4bf1-904d-c1f85833de26">
+  <producedTypes>
+    <selectionType typeId="7e173b5a-30e7-434b-9f25-f672ddcb77ba" valueTypeId="7296590b-76c7-4682-917d-713c58a82030"/>
+    <listType typeId="fdadfaae-870f-4721-a62b-cf508895ece5" valueTypeId="553909ea-f206-4e6f-a174-16a16af3c442"/>
+    <managerType typeId="7e62a5a1-4d56-44aa-aab2-e01e209110a4" valueTypeId="6affeac0-06ea-4379-b150-1f8281fb450d"/>
+    <recordSetType typeId="d216096c-666a-444f-821f-3b782cb79b77" valueTypeId="d98984e1-fefd-483b-a7d5-44238c1afc4f"/>
+    <recordKeyType typeId="076c0ac2-0156-43d6-8b21-79e003f91f81" valueTypeId="b76e842d-82d3-4abd-83f1-dac7ff82844a"/>
+    <recordType typeId="f99afebf-6306-4478-8dca-4420b3b1e469" valueTypeId="abaa39e9-b7c5-4316-96c5-af74023b88c4"/>
+    <recordManagerType typeId="20161175-7f62-48b1-99b4-1545bb97a0ee" valueTypeId="22849908-50a4-4851-9315-e817f8b3a94c"/>
+  </producedTypes>
+  <name>СтрокаВыбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строка выбора</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="61ad37ce-1698-4372-8518-c6bc709bc497">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="27f709e7-e799-488a-ac6c-9af751e183a6">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="952ff471-3dcb-4ae7-8643-21f613cb695e">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

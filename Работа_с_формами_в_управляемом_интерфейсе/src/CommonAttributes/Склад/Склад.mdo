@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce2ac1a0-6b1c-4852-9568-865a6cc49721">
+  <name>Склад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Склады</types>
+  </type>
+  <fillChecking>ShowError</fillChecking>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <content>
+    <metadata>Document.ПриходнаяНакладная</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

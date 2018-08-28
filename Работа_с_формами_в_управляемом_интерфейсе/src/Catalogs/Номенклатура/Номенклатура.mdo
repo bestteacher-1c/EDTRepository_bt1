@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5efa3df9-ab1b-40d5-8bc3-d9aa3b7c3774">
+  <producedTypes>
+    <objectType typeId="5e697a13-4f64-4dd6-8be7-c5de5fe8bf10" valueTypeId="05858a77-03f6-40a2-8a49-3c0d74a56123"/>
+    <refType typeId="a18c6941-c8b5-4e3a-bbb4-e1addb07a415" valueTypeId="622f82e0-0cc1-411f-b22c-ffcd57647420">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="ac678c75-deb0-4765-a57b-8a71661256ef" valueTypeId="69ddb4d7-cca1-4b0f-b7ba-9e3f897fb909"/>
+    <listType typeId="e6051bce-d88f-4f26-886a-029da6335a9e" valueTypeId="aa0c26fb-31eb-4394-b1d0-9682df543aca"/>
+    <managerType typeId="909cda04-75c7-4a2c-8b78-92fceca7e445" valueTypeId="2bb03dd4-2034-43f9-8c6b-24e11abc3834"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Каталог товаров и услуг</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="9472d44c-2a23-454f-a1e4-d54c195eeeda">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f8c12caa-704c-4ffd-8b1f-f7834a1054c9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

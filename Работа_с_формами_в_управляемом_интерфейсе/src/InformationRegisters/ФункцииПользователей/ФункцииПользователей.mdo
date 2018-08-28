@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93f88b32-aed7-4742-b05c-7a12dcc94849">
+  <producedTypes>
+    <selectionType typeId="bb1804e3-5f35-44be-aabd-6b064cc50fb5" valueTypeId="ce85e5dd-633b-4629-8ba3-ef647b701e54"/>
+    <listType typeId="93100ecb-5e0d-4d38-8ae6-16318fa60a7b" valueTypeId="33710524-ed9b-4f87-95c5-5b57f76586eb"/>
+    <managerType typeId="61db9c84-d913-4f88-9687-2afdddb3233e" valueTypeId="1594161e-1a7d-48c1-86e3-e7004ee926d1"/>
+    <recordSetType typeId="4ecc8338-cf21-42b4-afac-6f2209c4315a" valueTypeId="5f29ca19-ecc1-496d-a86c-3b0be737ea1d"/>
+    <recordKeyType typeId="9a3a42f1-e6d2-4013-9010-4bdcdbb225b3" valueTypeId="7fe82a3a-5dda-4391-819f-138ded217f5b"/>
+    <recordType typeId="14a1b1ed-d885-49eb-b64e-79a2c448892b" valueTypeId="385923e0-a707-4b4a-a643-dbc659d9316c"/>
+    <recordManagerType typeId="ee7b7555-05be-429c-a29f-256ac8458665" valueTypeId="e6f0e850-21be-4f4a-ad96-d4b18abf7383"/>
+  </producedTypes>
+  <name>ФункцииПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функции пользователей</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="25f07fd2-d87d-4b0e-99a3-99eb7aa6debf">
+    <name>МожетРаботатьСЦенамиКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Может работать с ценами клиента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2788cba7-68c5-4231-8d1f-901146fc843f">
+    <name>Профиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ПрофилиПользователей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8372ff2b-0f7c-4a7a-8240-d29ba9ca5914">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="75800d15-50e2-4a3b-a78c-0c33c8388671">
+    <name>ФункцииПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функции пользователя</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3c5f23d7-bd8e-4285-85ec-c36a58fbeb74">
+    <name>Функции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функции</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ПрофилиПользователей</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

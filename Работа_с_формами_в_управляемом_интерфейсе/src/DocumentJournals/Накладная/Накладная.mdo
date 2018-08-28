@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8b8bece-d841-4c12-807a-a1979e6fd7c3">
+  <producedTypes>
+    <selectionType typeId="de030ba5-3e61-4cfe-86c0-1966fe0ed54a" valueTypeId="8a346b7b-775d-4669-afbb-ad5823fa3fd6"/>
+    <listType typeId="cbf55a47-533c-4132-9b18-16043ec61444" valueTypeId="6989e963-e3e7-43a6-8a82-69818012893c"/>
+    <managerType typeId="e2a99b0c-148d-4f6a-a1b4-4ef5f557f37c" valueTypeId="6c3e325c-3d5f-4f37-ba3d-b0bfcb805f35"/>
+  </producedTypes>
+  <name>Накладная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Накладная</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПриходнаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.РасходнаяНакладная</registeredDocuments>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Журнал накладных</value>
+  </extendedListPresentation>
+</mdclass:DocumentJournal>

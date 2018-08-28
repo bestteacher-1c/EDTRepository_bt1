@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="138d7058-536f-4498-a2d3-83b6a411f09c">
+  <name>РазрешитьВходЧерезТонкогоКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить вход через тонкого клиента</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bb74a7c-8483-4f1e-a227-2d52f5d7e36d">
+  <producedTypes>
+    <objectType typeId="f4a5ab0e-d465-460f-a96f-33892aad581b" valueTypeId="4d65cf5b-bd71-4b47-bafa-0a408ce2db8b"/>
+    <refType typeId="5625c349-c43f-4119-b91f-9ac68a536e2a" valueTypeId="1e16b784-a5c7-4d63-91ae-3b91bf5a84e0">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="f6871323-0d6e-471f-8ebf-5948a372dfc6" valueTypeId="8cd8d1d8-e440-4a2c-ba7b-affba5e1a1cd"/>
+    <listType typeId="eb1cacd6-f3b6-41b1-93ae-153f0664e170" valueTypeId="919c47f1-7bc5-4f44-9e7d-522df863c3a1"/>
+    <managerType typeId="a891373a-e7de-4267-a98c-5740394ab7d7" valueTypeId="e00a1ae6-4483-473f-aa96-dbefc637e790"/>
+  </producedTypes>
+  <name>Клиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Клиентская база</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Клиенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="ce391f46-b6ac-4100-ab58-cf3d4e8dca87">
+    <name>РазрешитьРезервирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить резервирование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c747a44e-d05a-48dd-83f4-efba7d554b40">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
