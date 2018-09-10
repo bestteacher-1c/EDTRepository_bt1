@@ -2,9 +2,7 @@
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="107441b5-8f30-4e63-9e05-19340927313b">
   <producedTypes>
     <objectType typeId="c46af44a-ba2d-46b9-affa-665072aadd15" valueTypeId="cc2c2f13-1088-4532-88b0-0c41c0dd7a1e"/>
-    <refType typeId="96e8fb32-7232-456e-a39f-5805b5cf1d9f" valueTypeId="714f8287-d5fc-4c7b-bc1c-604afc3e0922">
-      <emptyRef/>
-    </refType>
+    <refType typeId="96e8fb32-7232-456e-a39f-5805b5cf1d9f" valueTypeId="714f8287-d5fc-4c7b-bc1c-604afc3e0922"/>
     <selectionType typeId="71d9ddd8-5026-45a4-a184-403f06f41152" valueTypeId="f69378c6-e903-40ab-ab24-eab3ecddadda"/>
     <listType typeId="d1c82294-6904-4006-8560-9a839594c29e" valueTypeId="7d65b5de-bcb5-457d-aa32-4fabe489cede"/>
     <managerType typeId="7f947118-1ce0-4a33-869b-33676ba3f06b" valueTypeId="f0b2c0b4-2428-4dda-9168-bb8f4c7d6ad7"/>
@@ -73,6 +71,22 @@
     <quickChoice>Use</quickChoice>
     <createOnInput>DontUse</createOnInput>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ecc24cf2-0282-4651-bbd8-6f5abc9fa97e">
+    <name>СтатусЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус заказа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
