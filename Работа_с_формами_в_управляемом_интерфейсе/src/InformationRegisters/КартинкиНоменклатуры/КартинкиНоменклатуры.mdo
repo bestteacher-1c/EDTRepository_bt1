@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eb65539-587b-47b7-b894-ee7f028ccd00">
+  <producedTypes>
+    <selectionType typeId="fd0aff0e-2338-4c3a-927c-89a9d20426c5" valueTypeId="b686c3ff-9df6-4df2-ad43-bbc338de40a7"/>
+    <listType typeId="f5be3273-f162-4c1b-a2dd-e30792936696" valueTypeId="e8f6444a-eb6b-4906-b091-4a9137ec0397"/>
+    <managerType typeId="9a2d28dc-df1a-4144-acbc-d146731c1e5b" valueTypeId="cae85a99-8ffc-494a-aa93-c74188dbf582"/>
+    <recordSetType typeId="27fbd889-980e-470d-b3ce-99d2ffaab362" valueTypeId="f8766c4e-4982-46ab-aaee-7eea225aedba"/>
+    <recordKeyType typeId="d5ab3337-b63c-4f9a-95b5-2a4707d440cb" valueTypeId="504834b0-e730-4ded-9e49-137c12e696b8"/>
+    <recordType typeId="d94965e6-f663-46a3-9ebb-03e07735e77e" valueTypeId="5b82362a-4f16-4484-9219-d0e6a25653cc"/>
+    <recordManagerType typeId="6523204c-f9b9-45d0-b9bd-1e895482ee8d" valueTypeId="c2caed66-b82d-44eb-85f8-da02d405e0b4"/>
+  </producedTypes>
+  <name>КартинкиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картинки номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <defaultRecordForm>InformationRegister.КартинкиНоменклатуры.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КартинкиНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Картинка</value>
+  </extendedRecordPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Картинки номенклатуры</value>
+  </extendedListPresentation>
+  <resources uuid="1106955b-e2de-493f-aaf4-1b8f249fbff1">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e313d375-0586-46e2-b2fb-d26a2e19c324">
+    <name>ИспользоватьВОтчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать в отчете</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="4f8ec63b-b5fb-43f4-bd03-5d2da8920439">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f6e4f5c8-d28e-49ce-b875-b6eb8166f502">
+    <name>Подпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="298316a5-d729-4c19-982d-97395c133fdd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="72dddb8a-24d7-437e-91b3-663f7a1e2aef">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d5308df4-567c-49ef-ad76-6edfb77f77af">
+    <name>Картинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинки</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

@@ -83,4 +83,5 @@
   <informationRegisters>InformationRegister.ПараметрыПрофиля</informationRegisters>
   <informationRegisters>InformationRegister.СтрокаВыбора</informationRegisters>
   <informationRegisters>InformationRegister.ФункцииПользователей</informationRegisters>
+  <informationRegisters>InformationRegister.КартинкиНоменклатуры</informationRegisters>
 </mdclass:Configuration>
